@@ -38,8 +38,16 @@ Fig. 4: Non-numerical labels
 
 In this case, LabelEncoder, using the following codes, can help transforming the non-numerical labels to the numerical labels (Fig. 5):
 
+import numpy as np
+from tensorflow.keras.utils import to_categorical
 
-X = population; y = to_categorical (continent)
+population = np.array([4641054775,  1340598147, 747636026, 
+                       592072212, 430759766, 43111704])
+
+continent = np.array(['Asia', 'Africa', 'Europe' , 'North America', 
+                      'South America', 'Australia/Oceania'])
+                      
+X = population;
 
 from sklearn.preprocessing import LabelEncoder  
 
