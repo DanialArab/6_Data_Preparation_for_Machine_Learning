@@ -10,7 +10,7 @@ To demonstrate the necessity to apply One-Hot Encoding, the data from the 4th we
 
 ![1](https://user-images.githubusercontent.com/54812742/138951805-0478932d-ee4d-41bb-9864-ee6035bda8fc.PNG)
 
-Fig. 1: Labels indicating the digit shown in every image 
+Fig. 2: Labels indicating the digit shown in every image 
 
 The labels are from 1 to 10. 10 is assigned to number 0 (to prevent confusion in Octave indexing), while the rest i.e., 1 to 9 are consistently labeled through 1 to 9. These data first needs to be One-Hot-Encoded. To do so, the to_categorical from tensorflow.keras.utils can be used to generate the following data, which is ready to go into the machine learning algorithm:
 
