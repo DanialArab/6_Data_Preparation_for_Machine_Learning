@@ -1,6 +1,15 @@
 # 5_Data_Preparation_for_Machine_Learning
 
-The data need to be prepared before going into the machine learning algorithms. One of these data preparation techniques is **One-Hot Encoding**. It is defined as a process by which categorical variables are converted into a form that could be provided to machine elarning algorithms to do a better job in prediction [1]. One-hot encoding works pretty well when variables take less than 15 different values [2]. One-hot encoding generates new binary columns for each category. Only one column in each row can take a value of 1 and the remaining columns in each row take a value of zero (Fig. 1). Therefore, it is named One-Hot Encoding.
+The data need to be prepared before going into the machine learning algorithms. 
+
+# Table of content
+
+1. [One-Hot Encoding](#1)
+
+
+<a name="1"></a>
+# One-Hot Encoding
+One of these data preparation techniques is **One-Hot Encoding**. It is defined as a process by which categorical variables are converted into a form that could be provided to machine elarning algorithms to do a better job in prediction [1]. One-hot encoding works pretty well when variables take less than 15 different values [2]. One-hot encoding generates new binary columns for each category. Only one column in each row can take a value of 1 and the remaining columns in each row take a value of zero (Fig. 1). Therefore, it is named One-Hot Encoding.
 
 ![2](https://user-images.githubusercontent.com/54812742/138953327-2c20d4b8-90a4-4b08-a70a-fd47dfc83047.PNG)
 
