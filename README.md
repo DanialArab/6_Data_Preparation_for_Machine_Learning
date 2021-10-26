@@ -24,7 +24,7 @@ Fig. 2: Labels indicating the digit shown in every image
 
 The labels are from 1 to 10. 10 is assigned to number 0 (to prevent confusion in Octave indexing), while the rest i.e., 1 to 9 are consistently labeled through 1 to 9. These data first needs to be One-Hot-Encoded. To do so, the to_categorical from tensorflow.keras.utils can be used to generate the following data, which is ready to go into the machine learning algorithm:
 
-![3](https://user-images.githubusercontent.com/54812742/138955160-fb4e0744-4a3c-466d-a8f5-9b12fd50ec2f.PNG)
+![4](https://user-images.githubusercontent.com/54812742/138960789-889119b7-0e24-4c9c-b99a-f588fc94ddef.PNG)
 
 Fig. 3: One-Hot Encoded labels
 
