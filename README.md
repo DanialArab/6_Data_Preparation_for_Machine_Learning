@@ -30,6 +30,28 @@ Fig. 3: One-Hot Encoded labels
 
 <a name="2"></a>
 # Label Encoder
+LabelEncoder is used to transform labels in a way that they only contain values between 0 and  n_classes-1 [3]. LabelEncoder is also useful in transforming the non-numerical labels (Fig. 4) to numerical labels. 
+
+![1](https://user-images.githubusercontent.com/54812742/138964606-d341b166-7528-47a6-a45f-9dee17b9c19e.PNG)
+
+Fig. 4: Non-numerical labels 
+
+In this case, LabelEncoder, using the following codes, can help transforming the non-numerical labels to the numerical labels (Fig. 5):
+
+
+X = population; y = to_categorical (continent)
+
+from sklearn.preprocessing import LabelEncoder  
+
+label_encoder = LabelEncoder() 
+
+vector = label_encoder.fit_transform(continent) 
+
+y = to_categorical(vector)
+
+![3](https://user-images.githubusercontent.com/54812742/138965036-ee28fbd9-d5ce-4269-85ba-016dee7b768e.PNG)
+
+Fig. 5
 
 
 
@@ -38,3 +60,5 @@ References:
 [1] https://hackernoon.com/what-is-one-hot-encoding-why-and-when-do-you-have-to-use-it-e3c6186d008f
 
 [2] https://www.kaggle.com/dansbecker/using-categorical-data-with-one-hot-encoding
+
+[3] https://scikit-learn.org/stable/modules/preprocessing_targets.html#preprocessing-targets
