@@ -39,6 +39,7 @@ Fig. 4: Non-numerical labels
 In this case, LabelEncoder, using the following codes, can help transforming the non-numerical labels to the numerical labels (Fig. 5):
 
 import numpy as np
+
 from tensorflow.keras.utils import to_categorical
 
 population = np.array([4641054775,  1340598147, 747636026, 
@@ -59,7 +60,7 @@ y = to_categorical(vector)
 
 ![3](https://user-images.githubusercontent.com/54812742/138965036-ee28fbd9-d5ce-4269-85ba-016dee7b768e.PNG)
 
-Fig. 5
+Fig. 5: Label Encoder results 
 
 
 
