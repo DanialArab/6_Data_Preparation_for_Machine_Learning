@@ -1,4 +1,4 @@
-# 5_Data_Preparation_for_Machine_Learning
+# 5 Data Preparation for Machine Learning
 
 The data need to be prepared before going into the machine learning algorithms. 
 
