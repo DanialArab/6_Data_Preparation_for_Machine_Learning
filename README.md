@@ -5,6 +5,7 @@ The data need to be prepared before going into the machine learning algorithms.
 # Table of content
 
 1. [One-Hot Encoding](#1)
+2. [Label Encoder](#2)
 
 
 <a name="1"></a>
@@ -26,6 +27,10 @@ The labels are from 1 to 10. 10 is assigned to number 0 (to prevent confusion in
 ![3](https://user-images.githubusercontent.com/54812742/138955160-fb4e0744-4a3c-466d-a8f5-9b12fd50ec2f.PNG)
 
 Fig. 3: One-Hot Encoded labels
+
+<a name="2"></a>
+# Label Encoder
+
 
 
 References:
